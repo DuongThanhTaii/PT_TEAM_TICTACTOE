@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 #gameContainer {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Poppins", monospace;
     text-align: center;
 
 }
@@ -22,7 +22,7 @@
 }
 
 button {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Poppins", monospace;
 }
 
 button:hover {
