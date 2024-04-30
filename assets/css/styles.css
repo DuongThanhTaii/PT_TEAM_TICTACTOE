@@ -1,0 +1,67 @@
+
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+button {
+    font-family: "Permanent Marker", cursive;
+}
+
+button:hover {
+    background-color: #ff9ce5;
+}
+
+.modeContaier {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mode-child {
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-text {
+    position: fixed;
+    text-align: center;
+    font-size: 16px;
+    opacity: .9;
+    margin: 8px !important;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+
+/* Add this CSS code to your existing styles.css file */
+.winning-cell {
+    background-color: #f697dd; /* Bright yellow color */
+}
+/* Add this CSS code to your existing styles.css file */
+.winning-row-cell {
+    background-color: #f697dd; /* Bright yellow color */
+}
+
